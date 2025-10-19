@@ -48,8 +48,8 @@ export default function JournalCard({ entry }) {
           <div className="flex justify-between items-center mt-3">
             <p className="text-sm text-gray-500">{new Date(entry.created_at).toLocaleString()}</p>
             <div className="space-x-2">
-              <button onClick={() => setEditing(true)} className="text-sm px-2 py-1 border rounded">Edit</button>
-              <button onClick={handleDelete} className="text-sm px-2 py-1 border rounded text-red-600">Delete</button>
+              <button onClick={() => setEditing(true)} className="cursor-pointer text-sm px-2 py-1 border rounded">Edit</button>
+              <button onClick={handleDelete} className="cursor-pointer text-sm px-2 py-1 border rounded text-red-600">Delete</button>
             </div>
           </div>
         </>

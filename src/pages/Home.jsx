@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-6 text-center text-gray-500 text-sm border-t border-gray-200 w-full">
-        © {new Date().getFullYear()} Personal Journal. Built with ❤️ using React + Supabase.
+        © {new Date().getFullYear()} Personal Journal. Developed By Sakarie Mohamud .
       </footer>
     </div>
   );

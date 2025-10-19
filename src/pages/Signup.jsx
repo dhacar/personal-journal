@@ -25,8 +25,8 @@ export default function Signup() {
   }
 
   return (
-    <div className="max-w-md mx-auto bg-white p-6 rounded shadow">
-      <h2 className="text-xl font-semibold mb-3">Sign up</h2>
+    <div className="max-w-md mx-auto bg-white p-6  rounded shadow">
+      <h2 className="text-xl font-semibold p-1 mb-3">Sign up</h2>
       <form onSubmit={handleSubmit} className="space-y-3">
         <input className="w-full border p-2 rounded" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
         <input type="password" className="w-full border p-2 rounded" placeholder="Password" value={password} onChange={(e)=>setPassword(e.target.value)} />
