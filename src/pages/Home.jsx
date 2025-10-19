@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import About from "./About";
 
 export default function Home() {
   return (
@@ -18,11 +19,18 @@ export default function Home() {
           Start Journaling📝
         </Link>
       </section>
+      
+
+      
+    
 
       {/* Footer */}
       <footer className="py-6 text-center text-gray-500 text-sm border-t border-gray-200 w-full">
         © {new Date().getFullYear()} Personal Journal. Developed By Sakarie Mohamud .
       </footer>
     </div>
+    
+
+   
   );
 }
